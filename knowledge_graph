@@ -1,0 +1,11 @@
+[User Question] ──┬──> [Detect Context/Domain] (Web page / Metadata)
+                 │
+                 └──> [RAG Engine] ──> [Azure Cognitive Search]
+                                   │
+                                   └──> [Teamplay Knowledge Base (Indexed)]
+                                             │
+                                             └──> [Domain: Utilization Performance]
+                                                   [Domain: Dose Management]
+                                                   [Domain: Protocol Management]
+
+Final Response ──> [GPT Completion + User Guidance + Link Suggestions]
